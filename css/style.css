@@ -44,7 +44,7 @@ p {
 }
 #showcase .bg-image {
     position:absolute;
-    background:#333 url("/meusite/img/bg-image.png");
+    background:#333 url("../img/bg-image.png");
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -82,7 +82,7 @@ p {
     padding:1.5em
 }
 #section-c {
-    background: #333 url(/meusite/img/bg-image.png);
+    background: #333 url('../img/bg-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
