@@ -1,123 +1,402 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Marcelo Fagundes - Front-End</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bikin - HTML Bootstrap Template</title>
 
-<!-- Header-->
-<header id="showcase" class="grid">
-  <div class="bg-image"></div>
-  <div class="content-wrap">
-  <hgroup> 
-    <h1>Marcelo Fagundes</h1>
-    <h2>Freelance Front-End </h2>
-    <h3>Do Photoshop para web e para todos os dispositivos</h3>
-  </hgroup>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/overwrite.css">
+	<link href="css/animate.min.css" rel="stylesheet"> 
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/newstyle.css" rel="stylesheet" />	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>	
+	<header id="header">
+        <nav class="navbar navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Perville<img src="img/logo-perville.png" class="img-responsive"></a>
+                    
+                </div>				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#header">Home</a></li>
+                        <li><a href="#perville-construct">Construções</a></li>
+                        <li><a href="#perville-pre-fabricados">Pré-fabricados</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#turismo-industrial">Turismo Industrial</a></li> 
+                        <li><a href="#ultimas-noticias">Notícias</a></li>
+                        <li><a href="#contact">Contato</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->		
+    </header><!--/header-->	
+	<div class="slider">		
+		<div id="about-slider">
+			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators visible-xs">
+					<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-slider" data-slide-to="1"></li>
+					<li data-target="#carousel-slider" data-slide-to="2"></li>
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active">						
+						<img src="img/2.jpg" class="img-responsive" alt=""> 
+					</div>
+			
+				    <div class="item">
+						<img src="img/3.jpg" class="img-responsive" alt=""> 
+					</div>
+
+				    <div class="item">
+						<img src="img/1.jpg" class="img-responsive" alt=""> 
+				    </div> 
+				</div>
+				
+				<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<i class="fa fa-angle-left"></i> 
+				</a>
+				
+				<a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+					<i class="fa fa-angle-right"></i> 
+				</a>
+			</div> <!--/#carousel-slider-->
+		</div><!--/#about-slider-->
+	</div><!--/#slider-->
+	
+
+	<div id="perville-construct">
+		
+		<div class="container">
+			<div class="text-center">
+					<h3>PERVILLE CONSTRUÇÕES</h3>	
+				</div>
+			<div class="row flex">
+
+	      <div class="construct "><p>Fundada em 1999 por Fabio Perini, a Perville Engenharia e Empreendimentos S.A. é uma construtora que atende as exigências de diferentes setores, oferecendo conceitos inovadores dentro de padrões técnicos internacionais.</p>
+
+<p>É especializada em obras comerciais e industriais, desenvolvendo soluções juntamente com seus clientes, primando por interpretar o desejo destes e inseri-los em um ambiente organizado e funcional.</p>
+
+<p>Expertise consolidada
+A Perville possui comprovada experiência para propor soluções às mais diversas e exigentes necessidades que seus clientes possam ter. Com um histórico de ter participado da instalação de mais de uma centena de empresas que atuam em mercados distintos, como metal mecânico, eletroeletrônico, plástico, químico, metalúrgico, logístico e de serviços. Conta com um acervo superior a 400.000 metros quadrados de área construída.</p>
+
+<p>A Perville Engenharia foi a empresa contratada pelo BMW Group para a construção de sua 30ª unidade no mundo, localizada em Araquari/SC, no modelo Design & Building (que além da obra inclui a realização dos projetos executivos).</p></div>
+	      <div class="v-contruct"><img src="img/perville-construcoes1.jpg" class="img-responsive"></div>
+		</div>
+	</div>
+</div>
+
+	<div id="feature">
+		<div class="container">
+			<div class="row">
+					<h3 class="text-center">NOSSOS VALORES</h3>	
+				
+				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="fa fa-laptop"></i>						
+							<h2>Criatividade</h2>
+							<p>Acreditamos que o olhar de uma mente aberta encontra novo sentido e utilidade para as coisas.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="glyphicon glyphicon-ok-sign"></i>
+							<h2>Inovação</h2>
+							<p>O pensamento é uma espiral que conecta nossas experiências e nos permite constantemente melhorar nossos processos.</p>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="glyphicon glyphicon-ok"></i>
+							<h2>Ética</h2>
+							<p>A investigação do que é bom e justo, esta sempre presente em nossas atitudes.</p>
+						</div>
+					</div>
+				</div>
+			<div class="col-md-3 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.3s">
+					<div class="text-center">
+						<div class="hi-icon-wrap hi-icon-effect">
+							<i class="glyphicon glyphicon-repeat"></i>
+							<h2>Compromisso</h2>
+							<p>Tudo o que foi combinado não custa caro e é nosso dever zelar por nossos acordos.</p>
+						</div>
+					</div>
+				</div>
+
+	
+		</div>
+	</div>
+</div>
+
+	<div id="perville-pre-fabricados">
+		<div class="container">
+			<div class="text-center">
+					<h3>PERVILLE PRÉ-FABRICADOS</h3>	
+				</div>
+			<div class="row flex">
+
+	      <div class="construct2 "><p>A Perville Engenharia tem sua própria unidade de pré-fabricação, que foi importada da Itália e incorpora tecnologias que representam inovações no mercado brasileiro.<p/>
+
+<p>Com a utilização de travamentos especiais, os elementos pré-fabricados trabalham de forma engastada e semi-engastada dentro de um conceito chamado “Sistema Aberto”, permitindo que elementos de concreto possam ser montados, desmontados e/ou adaptados a outros modelos construtivos disponíveis.<p/>
+
+<p>O aperfeiçoamento constante dos processos faz com que a empresa torne-se referência para clientes, universidades e centros de pesquisa em tecnologia da construção.<p/>
+
+<p>A Perville Engenharia compartilha eficiência incorporando soluções green building, com a utilização da luz natural nos ambientes industriais através do Shed Perini, o uso de painéis de fechamento termo acústico (um dos maiores disponíveis no mercado brasileiro), e o uso de estruturas pré-fabricadas que incorporam a captação de água da chuva.</p></div>
+	      <div class="v-contruct2"><img src="img/pre-fabricados.jpg" class="img-responsive"></div>
+
+	</div>
+	
+			<h4>Produtos</h4>
+			<div class="produtos">
+			<img src="img/pre-fabri-tunb00.jpg" class="img-responsive">
+			<img src="img/pre-fabri-tunb01.jpg" class="img-responsive">
+			<img src="img/pre-fabri-tunb02.jpg" class="img-responsive">
+			<img src="img/pre-fabri-tunb03.jpg" class="img-responsive">
+		</div>
+</div>	
+	
+	<div id="portfolio">
+		<div class="container">
+			<div class="text-center">
+				<h3>PORTFÓLIO</h3>
+				<p>Os melhores cases de sucesso</p>
+			</div>
+			<div class="row">
+				<figure class="effect-chico">						
+					<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/port00G.jpg" class="flipLightBox">
+						<img src="img/port00.jpg" class="img-responsive" alt="">
+						</a>						
+					</div>
+				</figure>
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/port01G.jpg" class="flipLightBox">
+						<img src="img/port01.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+				</figure>	
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/port02G.jpg" class="flipLightBox">
+						<img src="img/port02.jpg" class="img-responsive" alt="">
+						</a>
+					</div>
+				</figure>
+				<figure class="effect-chico">
+					<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+						<a href="img/port03G.jpg" class="flipLightBox">
+						<img src="img/port03.jpg" class="img-responsive" alt="">
+						</a>
+					</div>	
+				</figure>
+			</div>
+		</div>
+		<div class="gallery">
+			<div class="container">
+				<div class="row">
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/port04G.jpg" class="flipLightBox">
+							<img src="img/port04.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/port05G.jpg" class="flipLightBox">
+							<img src="img/port05.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/port06G.jpg" class="flipLightBox">
+							<img src="img/port06.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>	
+					<figure class="effect-chico">
+						<div class="col-md-3 wow fadeInDown" data-wow-offset="0" data-wow-delay="0.3s">
+							<a href="img/port07G.jpg" class="flipLightBox">
+							<img src="img/port07.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div><!--/#gallery-->
+	
+	<div id="turismo-industrial">
+		<div class="col-md-9 col-md-offset-2">
+			<div class="text-center">
+				<div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.2s">
+					<h2>TURISMO INDUSTRIAL</h2>
+				</div>
+				<div class="turismo-industrial" data-wow-offset="0" data-wow-delay="0.6s">
+					<p><span>“</span>Um passeio completo: da fábrica aos resultados que ela produz<span>“</span><br/><p/>
+Entendemos que compartilhar é a melhor forma de aprimorar o conhecimento e consequentemente criar condiçōes para a evolução nos processos da construção civil.
+					</p>
+
+
+					<p>Entramos em contanto com você</p>
+				</div>
+	</div>
+</div>
+
+		<div class="container">
+			<div class="sub-footer">
+				<div class="text-center">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="input-group input-group-newsletter">
+                <input type="email" class="form-control" placeholder="email..." aria-label="Enter email..." aria-describedby="basic-addon">
+                <div class="input-group-append">
+                  <button class="btn btn-secondary" type="button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Me avise!</font></font></button>
+                </div>
+              </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div><!--/#parallax-window-->
+	<div id="ultimas-noticias">
+	<div class="container">
+		    <div class="text-center">
+				<h3>Ultimas Noticias</h3>
+				<p>Visite nosso <strong><a href="#">Blog</strong></a></p>
+			</div>
+			<div class="sub-blog">
+	       <div class="card mb-4">
+            <img class="card-img-top img-responsive" src="img/img-blog01.png" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Uma Nova Revolução</h2>
+              <p class="card-text">Nosso diretor de Operações, Emerson Edel, também é presidente do COMCITI, entidade organizadora da ExpoInovação.
+Ele publicou um artigo no Jornal A Notícia, valorizando “Uma Nova Revolução”. Confira!</p>
+              <a href="#" class="btn btn-primary">Leia mais &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+             Postado emAssessoria de Imprensano dia 25 de outubro de 2017
+             
+            </div>
+          </div>
+
+
+          	       <div class="card mb-4">
+            <img class="card-img-top img-responsive" src="img/img-blog02.png"  alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">UFSC no Perini, novidades</h2>
+              <p class="card-text">O Jornal A Notícia, de Joinville, destacou em sua coluna de economia de hoje (11/01/2018) a entrega de mais uma etapa das obras da UFSC no Condomínio Multissetorial Perini Business Park. Confira!</p>
+              <a href="#" class="btn btn-primary">Leia mais &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Postado em Assessoria de Imprensano dia 25 de outubro de 2017
+              
+            </div>
+          </div>
+	      </div>
   </div>
-</header>
 
-<!-- Main Area -->
-<main id="main">
-  <!-- Section A -->
-  <section id="section-a" class="grid">
-    <div class="content-wrap">
-      <h2 class="content-title">Sobre mim</h2>
-      <div class="content-text">
-        <p>Me chamo Marcelo atualmente com 36 anos, morro em Jonville tenho uma filha linda e uma esposa maravilhosa.</p>
-        <p> Ultilizo as linguagens web <span>HTML5 CSS3 E JS</span> para dar vida a layouts originalmente criados em photoshop ou embasados em outros sites, os layouts são sempre responsivos e podem também ser integrados ao cms wordpress </p>
-        <p>Uma ambição é ter códigos mais semânticos e pra isso prefiro deixar de lado frameworks css para a utilização de feactures como Grid Layout e Flexbox </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Section B -->
-  <section id="section-b" class="grid">
-    <div class="content-wrap">
-      <h2 class="content-title">Portfolio</h2>
-      <p></p>
-    </div>
-    <ul>
-      <li>
-        <div class="card">
-          <img src="../img/no-image.png" alt="">
-          <div class="card-content">
-            <h3 class="card-title">Web Development</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="card">
-          <img src="../img/no-image.png" alt="">
-          <div class="card-content">
-            <h3 class="card-title">Mobile Applications</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-          </div>
-        </div>
-      </li>
-      <li>
-        <div class="card">
-          <img src="../img/no-image.png" alt="">
-          <div class="card-content">
-            <h3 class="card-title">Tech Marketing</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </section>
-
-  
-  <!-- Section C -->
-<section id="section-c" class="grid">
-    &nbsp 
-  </section>
-
-
-  <!-- Section D -->
-  <section id="section-d" class="grid">
-    <div class="box">
-      <h2 class="content-title">Contato</h2>
-      <p>Ta precisando de um front end? fale comigo!.</p>
-      <div class="contact-icons">
-         <a href="#" target="_blank">
-        <i class="ico email"></i>
-        </a>
-        <a href="#" target="_blank">
-        <i class="ico facebook" target="_blank"></i>
-        </a>
-        <a href="#" target="_blank">
-        <i class="ico twitter" target="_blank"></i>
-        </a>
-        <a href="#" target="_blank">
-        <i class="ico linkedin" target="_blank"></i>
-        </a>
-        <a href="#" target="_blank">
-        <i class="ico github"></i>
-        </a>
-      </div>
-    </div>
-    <div class="box">
-      <h2 class="content-title">Quanto vale meu trabalho?</h2>
-      <p>O valor varia da complexidade do layout e das funcionalidades em JS ou integração com Wordpress. Após receber as telas e instruções, eu avalio e envio um orçamento e o prazo.
-Ok, ok, sempre esse mesmo papinho, né? Quer valores? Normalmente, o valor base é R$ 200,00 a primeira página e R$ 75,00 cada página adicional na mesma estrutura.</p>
-    </div>
-  </section>
-</main>
-
-<!-- Footer -->
-<footer id="main-footer" class="grid">
-  <div>Front end Freelance</div>
-  <div>Marcelo Fagundes</div>
-</footer>
-
-
-
-</body>
+  </div>
+	<footer>
+		<div id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeInUp contact-text" data-wow-offset="0" data-wow-delay="0.2s">
+						
+						<p>Estamos à disposição para atendê-los, entre em contato conosco preenchendo o formulário.
+						</p>
+						<a class="logo-footer" href="index.html"><img src="img/logo-perville.png" class="img-responsive"></a>				
+					</div>				
+					
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.4s">
+						<h2>Contato</h2>
+						<ul>
+							<li><i class="fa fa-home fa-2x"></i> Rua Dona Francisca, nº 8300 – Distrito Industrial – Bloco Z
+							cep: 89.219-600 – Joinville –SC –Brasil</li><hr>
+							<li><i class="fa fa-phone fa-2x"></i> Fax: + 55 (47) 3803-2238</li><hr>
+							<li><i class="fa fa-phone fa-2x"></i> SAC: 0800 602 1023</li>
+							
+						</ul>
+					</div>
+					
+					<div class="col-md-4 wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">					
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="name" class="form-control" id="exampleInputName" placeholder="nome">							
+							</div>
+							<div class="form-group">							
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
+							</div>
+						</form>
+						
+						<form>	
+							<div class="form-group">
+								<input type="subject" class="form-control" placeholder="Assunto">
+							</div>						
+							<textarea class="form-control" rows="5"></textarea>							
+							<div class="form-group">
+								<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensagem</button>
+							</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+		</div><!--/#contact-->					
+				
+		<p>&nbsp</p>			
+		<div class="text-center">
+			<div class="copyright">
+				&copy; 2018 <a target="_blank" href="#" title="">Perville</a> Todos os direitos reservados.
+            <!-- 
+                All links in the footer should remain intact. 
+                Licenseing information is available at: http://bootstraptaste.com/license/
+                You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Bikin
+            -->
+		</div>									
+	</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>		
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>	
+	<script src="js/parallax.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/fliplightbox.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+	
+		}	) 
+		.init();
+	</script>	
+  </body>
 </html>
-
